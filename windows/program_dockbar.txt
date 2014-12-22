@@ -1,0 +1,42 @@
+# program_dockbar.txt  --- Windows
+# (de) Programmaufrufe fuer silidock registrieren
+# (en) register program calls for silidock
+#
+# (de) Syntax (Alles in eine Zeile): 
+# (en) Syntax (in a single line):
+# [Label] {Program-Call} <Image-File>
+#
+# (de) Keine Leerzeichen nach oeffnenden oder vor schliessenden Klammern!
+# (de) die Reihenfolge entspricht der auf der Leiste
+# (en) No space after opening or before closing brackets!
+# (en) The order is that of the dock bar. 
+#
+# [Label]: 
+# (de) Name des Programms, wird angezeigt, wenn Mauszeiger ueber Button ist
+# (en) The program name is displayed if the mouse pointer is over the button
+
+# {Programmaufruf}: 
+# (de) Ausfuehrbare Datei mit Pfad 
+# (en) The executable file with absolute path
+# (de) Ausfuehrbare Dateien befinden sich in:
+# (en) You can fin executable files in:
+# /usr/bin   /bin   /usr/sbin   /usr/local/bin
+
+# <Image-File>: 
+# (de) Image-Datei, die auf dem Button angezeigt, Angabe wird mit Pfad, moegliche Formate sind:
+# (en) image files, displayed on buttons, with absolute path, possible formats:
+# .png   .jpg   .jpeg   .gif   .bmp
+
+
+[Firefox] {C:\Program Files (x86)\Mozilla Firefox\firefox.exe} <imgs\program-images\firefox.jpg>
+[Terminal] {C:\Windows\System32\cmd.exe} <imgs\program-images\terminal.png>
+[Writer] {C:\Program Files (x86)\LibreOffice 3.6\program\swriterX.exe} <C:\Program Files (x86)\LibreOffice 3.6\share\config\wizard\web\images\writer.gif>
+[Notepad] {C:\Windows\System32\notepad.exe} <>
+[Calculator] {C:\Windows\System32\calc.exe} <>
+
+[Avira] {C:\Program Files (x86)\Avira\AntiVir Desktop\avcenter.exe} <imgs\program-images\avira.png>
+
+
+
+#[MS-Info] {C:\Windows\System32\msinfo32.exex} <>
+#[Task Manager] {C:\Windows\System32\taskmgr.exe} <>
