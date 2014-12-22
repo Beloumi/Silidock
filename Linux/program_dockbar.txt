@@ -1,0 +1,83 @@
+# program_dockbar.txt  --- Linux
+# (de) Programmaufrufe fuer silidock registrieren
+# (en) register program calls for silidock
+#
+# (de) Syntax (Alles in eine Zeile): 
+# (en) Syntax (in a single line):
+# [Label] {Program-Call} <Image-File>
+#
+# (de) Keine Leerzeichen nach oeffnenden oder vor schliessenden Klammern!
+# (de) die Reihenfolge entspricht der auf der Leiste
+# (en) No space after opening or before closing brackets!
+# (en) The order is that of the dock bar. 
+#
+# [Label]: 
+# (de) Name des Programms, wird angezeigt, wenn Mauszeiger ueber Button ist
+# (en) The program name is displayed if the mouse pointer is over the button
+
+# {Programmaufruf}: 
+# (de) Ausfuehrbare Datei mit Pfad 
+# (en) The executable file with absolute path
+# (de) Ausführbare Dateien befinden sich in:
+# (en) You can fin executable files in:
+# /usr/bin   /bin   /usr/sbin   /usr/local/bin
+
+# <Image-File>: 
+# (de) Image-Datei, die auf dem Button angezeigt, Angabe wird mit Pfad, moegliche Formate sind:
+# (en) image files, displayed on buttons, with absolute path, possible formats:
+# .png   .jpg   .jpeg   .gif   .bmp
+# (de) Bilddateien befinden sich oft in: 
+# (en) You may find image files in:
+# /usr/share/***PROGRAM***/...   ~/.icons/...   /usr/share/icons/... /usr/share/pixmaps/...   /usr/local/share/...
+# /usr/share/icons/hicolor/32x32/apps/...   
+
+#[] {} <>
+# (de) Dies sind Beispiel, die eventuell funktionieren. Zum Ausprobieren das fuehrende '#' entfernen und speichern
+# (en) These are examples, they may work or not. To check: delete the leading '#' and save
+
+### Webbrowser: 
+[Firefox] {/usr/bin/firefox}  </usr/share/icons/hicolor/32x32/apps/firefox.png>
+[Iceweasel] {/usr/bin/iceweasel}  </usr/share/iceweasel/icons/mozicon128.png>
+[Konqueror] {/usr/bin/konqueror} </usr/share/kde4/apps/konqueror/about/top-left-konqueror.png>
+#[Opera] {/usr/bin/opera} </usr/share/icons/hicolor/32x32/apps/opera.png>
+[Chromium] {/usr/bin/chromium-browser} </usr/share/app-install/icons/chromium-browser.png>
+
+### Dateimanger - file manager:
+[PCManFM] {/usr/bin/pcmanfm} </usr/share/icons/gnome/32x32/apps/system-file-manager.png>
+#[Konqueror] {/usr/bin/konqueror} </usr/share/kde4/apps/konqueror/about/top-left-konqueror.png>
+[Dolphin] {/usr/bin/dolphin} </usr/share/icons/default.kde4/48x48/places/folder-blue.png>
+
+### Texteditoren und Schreibprogramme - text editors and writers:
+[OO Writer] {/usr/bin/lowriter} </usr/share/icons/gnome/32x32/apps/libreoffice-writer.png>
+[LO Writer] {/usr/bin/oowriter} </usr/share/icons/gnome/48x48/emblems/emblem-documents.png>
+[AbiWord] {/usr/bin/abiword} </usr/share/app-install/icons/abiword_48.png>
+#[Kate] {/usr/bin/kate} </usr/share/icons/oxygen/64x64/categories/applications-office.png>
+[Leafpad] {/usr/bin/leafpad} </usr/share/icons/hicolor/32x32/apps/leafpad.png>
+#[Bluefish] {/usr/bin/bluefish} </usr/share/icons/hicolor/32x32/apps/bluefish.jpg>
+#[Beaver] {/usr/bin/beaver} </usr/share/icons/hicolor/32x32/apps/beaver.png>
+
+### Multimedia, Sound, Video...
+[VLC] {/usr/bin/vlc} </usr/share/icons/hicolor/32x32/apps/vlc.png>
+
+### Office
+#[LibreOffice] {/usr/bin/libreoffice} </usr/share/app-install/icons/libreoffice-startcenter.png>
+
+### Konsole/Terminal:
+#[Konsole] {/usr/bin/lxterminal} </usr/share/icons/gnome/32x32/apps/gnome-terminal.png>
+#[Konsole] {/usr/bin/konsole} </usr/share/icons/oxygen/64x64/apps/terminal.png>
+#[Konsole] {/usr/bin/lxterminal} </usr/share/icons/hicolor/32x32/apps/konsole-linux32.png>
+
+### Software
+#[Muon Pakete] {/usr/bin/muon} </usr/share/app-install/icons/muon.png>
+#[Synaptic] {/usr/sbin/synaptic} </usr/share/synaptic/glade/deb.png>
+#[Software installieren] {/usr/bin/package-manager} </usr/share/susehelp/img/suse_150.png>
+
+### Mail:
+
+## IDEs:
+#[Code::Blocks] {/usr/bin/codeblocks} </usr/share/codeblocks/images/codeblocks.png>
+
+### Other:
+#[sudo run] {/usr/bin/gksudo} </usr/share/icons/oxygen/64x64/actions/system-run.png>
+
+
