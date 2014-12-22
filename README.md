@@ -1,0 +1,4 @@
+Silidock
+========
+
+simple lightweight dockbar
