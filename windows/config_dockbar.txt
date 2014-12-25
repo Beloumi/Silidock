@@ -1,0 +1,37 @@
+# config_dockbar.txt - Windows and Linux
+#------------------------------------------------------------------------
+# Settings for dockbar
+# Syntax: key=value
+# no need to modify keys or values. 
+# Just uncomment to enable line (delete leading #) 
+# or comment to disable (type # at fist position in line)
+# do not use space or tabs
+#------------------------------------------------------------------------
+# Einstellungen fuer Menueleiste
+# Syntax: Schluesselbegriff=Wert
+# Die Eintraege muessen nicht geaendert werden
+# Zum Aktivieren einer Zeile: fuehrendes # entfernen
+# zum Deaktivieren: # an Zeilenanfang
+# keine Leerzeichen oder Tabs benutzen
+#########################################################################
+### display date: yes, no; default: no
+### Datumsanzeige: ja, nein
+#date=yes
+date=no
+### size of bar and buttons: small, medium, large; default: medium
+### Groesse der Menueleiste und ihrer Button: klein, mittel, gross
+#size=small
+size=medium
+#size=large
+### number of colums (or lines): you can also type a number > 4; default: 1
+### Anzahl der Spalten oder Zeilen, Werte > 4 sind moeglich
+columns=1
+#columns=2
+#columns=3
+#columns=4
+### position of dockbar on screen: left, right, top, bottom; default: left
+### Position der Menueleiste auf dem Bildschirm: links, rechts, oben, unten
+position=left
+#position=right
+#position=top
+#position=bottom
