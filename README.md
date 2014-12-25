@@ -26,4 +26,4 @@ In the future:
 
 Web: 
 You can find (insufficiently tested) binaries there. 
-www.op.dr.eck.cologne/prog/silidock/index.html
+www.op.dr.eck.cologne/prog/silidock/
