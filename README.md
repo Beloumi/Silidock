@@ -26,5 +26,5 @@ In the future:
 Author: Axel von dem Bruch
 
 Web: 
-You can find (insufficiently tested) binaries there. 
+You can find (insufficiently tested) binaries there: 
 http://op.dr.eck.cologne/en/prog/silidock/
