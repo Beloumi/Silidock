@@ -27,4 +27,4 @@ Author: Axel von dem Bruch
 
 Web: 
 You can find (insufficiently tested) binaries there. 
-http://op.dr.eck.cologne/prog/silidock/
+http://op.dr.eck.cologne/en/prog/silidock/
