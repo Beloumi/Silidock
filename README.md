@@ -22,9 +22,6 @@ ToDos in the (probably not near) future:
 In the future: 
 - Make it easier to use: replace scripts for configuration, Windows: extract images from .exe files. 
 
-
-Author: Axel von dem Bruch
-
 Web: 
 You can find (insufficiently tested) binaries there: 
 http://op.dr.eck.cologne/en/prog/silidock/
